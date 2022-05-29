@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+.body {
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 9px -1px rgba(0,0,0,0.43);
+    background-color: #0A285F;
+    color: #ffff;
+    margin: 10px 20px 10px 20px;
+}
+
+.button-disabled {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 9px -1px rgba(0,0,0,0.43);
+    background-color: #0A285F;
+    color: #ffff;
+    opacity: 20%;
+    margin: 10px 20px 10px 20px;
+}
+
+.navBar, .headerBar {
+    display: flex;
+    justify-content: center;
+}
+
+.imgFlipped {
+    transform: scaleX(-1)
+}
+
+.pokemonCards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemonCard {
+    display: flex;
+    width: calc(33% - 10px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #D5A100;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.pokemonCard h1 {
+    text-transform: capitalize;
+}
+
+.pokemonCard h3, p  {
+    margin: 5px;
+}
+
+.abilities {
+    border: 2px solid #DFDFDF;
+    border-radius: 10px;
+}
+
+.ability {
+    background-color: #DFDFDF;
+    border-radius: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
